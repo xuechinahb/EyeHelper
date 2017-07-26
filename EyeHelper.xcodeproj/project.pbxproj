@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200759F41EEE7B3A006AF2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200759F31EEE7B3A006AF2C3 /* AppDelegate.swift */; };
+		200759F81EEE7B3A006AF2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200759F71EEE7B3A006AF2C3 /* Assets.xcassets */; };
+		20075A021EEE7B82006AF2C3 /* LaunchHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 200759F11EEE7B3A006AF2C3 /* LaunchHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		203D42551EE65FCE008D756B /* OnlyNumbericFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203D42541EE65FCE008D756B /* OnlyNumbericFormatter.swift */; };
 		205E151B1EC46879002CB33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E151A1EC46879002CB33E /* AppDelegate.swift */; };
-		205E151D1EC46879002CB33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E151C1EC46879002CB33E /* ViewController.swift */; };
 		205E151F1EC46879002CB33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205E151E1EC46879002CB33E /* Assets.xcassets */; };
 		205E15221EC4687A002CB33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205E15201EC4687A002CB33E /* Main.storyboard */; };
 		205E152D1EC4687A002CB33E /* EyeHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E152C1EC4687A002CB33E /* EyeHelperTests.swift */; };
 		205E15381EC4687A002CB33E /* EyeHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E15371EC4687A002CB33E /* EyeHelperUITests.swift */; };
+		205E154C1EC5AD6F002CB33E /* PreferencesWinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E154A1EC5AD6F002CB33E /* PreferencesWinController.swift */; };
+		205E154D1EC5AD6F002CB33E /* PreferencesWinController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205E154B1EC5AD6F002CB33E /* PreferencesWinController.xib */; };
+		205E15501EC5BDDA002CB33E /* LockWinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205E154E1EC5BDDA002CB33E /* LockWinController.swift */; };
+		205E15511EC5BDDA002CB33E /* LockWinController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205E154F1EC5BDDA002CB33E /* LockWinController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +39,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		20075A011EEE7B51006AF2C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				20075A021EEE7B82006AF2C3 /* LaunchHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		200759F11EEE7B3A006AF2C3 /* LaunchHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200759F31EEE7B3A006AF2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		200759F71EEE7B3A006AF2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200759FC1EEE7B3A006AF2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20075A001EEE7B4B006AF2C3 /* EyeHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EyeHelper.entitlements; sourceTree = "<group>"; };
+		20075A031EEE7BCF006AF2C3 /* LaunchHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LaunchHelper.entitlements; sourceTree = "<group>"; };
+		203D42541EE65FCE008D756B /* OnlyNumbericFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlyNumbericFormatter.swift; sourceTree = "<group>"; };
 		205E15171EC46879002CB33E /* EyeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205E151A1EC46879002CB33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		205E151C1EC46879002CB33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		205E151E1EC46879002CB33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205E15211EC4687A002CB33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		205E15231EC4687A002CB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,9 +71,20 @@
 		205E15331EC4687A002CB33E /* EyeHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		205E15371EC4687A002CB33E /* EyeHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeHelperUITests.swift; sourceTree = "<group>"; };
 		205E15391EC4687A002CB33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205E154A1EC5AD6F002CB33E /* PreferencesWinController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWinController.swift; sourceTree = "<group>"; };
+		205E154B1EC5AD6F002CB33E /* PreferencesWinController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWinController.xib; sourceTree = "<group>"; };
+		205E154E1EC5BDDA002CB33E /* LockWinController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockWinController.swift; sourceTree = "<group>"; };
+		205E154F1EC5BDDA002CB33E /* LockWinController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockWinController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		200759EE1EEE7B3A006AF2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		205E15141EC46879002CB33E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,12 +109,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		200759F21EEE7B3A006AF2C3 /* LaunchHelper */ = {
+			isa = PBXGroup;
+			children = (
+				20075A031EEE7BCF006AF2C3 /* LaunchHelper.entitlements */,
+				200759F31EEE7B3A006AF2C3 /* AppDelegate.swift */,
+				200759F71EEE7B3A006AF2C3 /* Assets.xcassets */,
+				200759FC1EEE7B3A006AF2C3 /* Info.plist */,
+			);
+			path = LaunchHelper;
+			sourceTree = "<group>";
+		};
+		203D424B1EE64850008D756B /* preference */ = {
+			isa = PBXGroup;
+			children = (
+				205E154A1EC5AD6F002CB33E /* PreferencesWinController.swift */,
+				205E154B1EC5AD6F002CB33E /* PreferencesWinController.xib */,
+				203D42541EE65FCE008D756B /* OnlyNumbericFormatter.swift */,
+			);
+			name = preference;
+			sourceTree = "<group>";
+		};
 		205E150E1EC46879002CB33E = {
 			isa = PBXGroup;
 			children = (
 				205E15191EC46879002CB33E /* EyeHelper */,
 				205E152B1EC4687A002CB33E /* EyeHelperTests */,
 				205E15361EC4687A002CB33E /* EyeHelperUITests */,
+				200759F21EEE7B3A006AF2C3 /* LaunchHelper */,
 				205E15181EC46879002CB33E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +147,7 @@
 				205E15171EC46879002CB33E /* EyeHelper.app */,
 				205E15281EC4687A002CB33E /* EyeHelperTests.xctest */,
 				205E15331EC4687A002CB33E /* EyeHelperUITests.xctest */,
+				200759F11EEE7B3A006AF2C3 /* LaunchHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +155,14 @@
 		205E15191EC46879002CB33E /* EyeHelper */ = {
 			isa = PBXGroup;
 			children = (
+				20075A001EEE7B4B006AF2C3 /* EyeHelper.entitlements */,
+				203D424B1EE64850008D756B /* preference */,
 				205E151A1EC46879002CB33E /* AppDelegate.swift */,
-				205E151C1EC46879002CB33E /* ViewController.swift */,
 				205E151E1EC46879002CB33E /* Assets.xcassets */,
 				205E15201EC4687A002CB33E /* Main.storyboard */,
 				205E15231EC4687A002CB33E /* Info.plist */,
+				205E154E1EC5BDDA002CB33E /* LockWinController.swift */,
+				205E154F1EC5BDDA002CB33E /* LockWinController.xib */,
 			);
 			path = EyeHelper;
 			sourceTree = "<group>";
@@ -125,6 +188,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		200759F01EEE7B3A006AF2C3 /* LaunchHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200759FD1EEE7B3A006AF2C3 /* Build configuration list for PBXNativeTarget "LaunchHelper" */;
+			buildPhases = (
+				200759ED1EEE7B3A006AF2C3 /* Sources */,
+				200759EE1EEE7B3A006AF2C3 /* Frameworks */,
+				200759EF1EEE7B3A006AF2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchHelper;
+			productName = LaunchHelper;
+			productReference = 200759F11EEE7B3A006AF2C3 /* LaunchHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
 		205E15161EC46879002CB33E /* EyeHelper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 205E153C1EC4687A002CB33E /* Build configuration list for PBXNativeTarget "EyeHelper" */;
@@ -132,6 +212,7 @@
 				205E15131EC46879002CB33E /* Sources */,
 				205E15141EC46879002CB33E /* Frameworks */,
 				205E15151EC46879002CB33E /* Resources */,
+				20075A011EEE7B51006AF2C3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -188,10 +269,25 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = evan;
 				TargetAttributes = {
+					200759F01EEE7B3A006AF2C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZVYQBKREXL;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					205E15161EC46879002CB33E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = N8Z86S2J3D;
+						DevelopmentTeam = ZVYQBKREXL;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					205E15271EC4687A002CB33E = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -223,15 +319,26 @@
 				205E15161EC46879002CB33E /* EyeHelper */,
 				205E15271EC4687A002CB33E /* EyeHelperTests */,
 				205E15321EC4687A002CB33E /* EyeHelperUITests */,
+				200759F01EEE7B3A006AF2C3 /* LaunchHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		200759EF1EEE7B3A006AF2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200759F81EEE7B3A006AF2C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		205E15151EC46879002CB33E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205E154D1EC5AD6F002CB33E /* PreferencesWinController.xib in Resources */,
+				205E15511EC5BDDA002CB33E /* LockWinController.xib in Resources */,
 				205E151F1EC46879002CB33E /* Assets.xcassets in Resources */,
 				205E15221EC4687A002CB33E /* Main.storyboard in Resources */,
 			);
@@ -254,12 +361,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		200759ED1EEE7B3A006AF2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200759F41EEE7B3A006AF2C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		205E15131EC46879002CB33E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205E151D1EC46879002CB33E /* ViewController.swift in Sources */,
+				203D42551EE65FCE008D756B /* OnlyNumbericFormatter.swift in Sources */,
 				205E151B1EC46879002CB33E /* AppDelegate.swift in Sources */,
+				205E15501EC5BDDA002CB33E /* LockWinController.swift in Sources */,
+				205E154C1EC5AD6F002CB33E /* PreferencesWinController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +423,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		200759FE1EEE7B3A006AF2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LaunchHelper/LaunchHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVYQBKREXL;
+				INFOPLIST_FILE = LaunchHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.EyeHelper.LaunchHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		200759FF1EEE7B3A006AF2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LaunchHelper/LaunchHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVYQBKREXL;
+				INFOPLIST_FILE = LaunchHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.EyeHelper.LaunchHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		205E153A1EC4687A002CB33E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,12 +555,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EyeHelper/EyeHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = N8Z86S2J3D;
+				DEVELOPMENT_TEAM = ZVYQBKREXL;
 				INFOPLIST_FILE = EyeHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.evan.EyeHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -416,12 +573,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EyeHelper/EyeHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = N8Z86S2J3D;
+				DEVELOPMENT_TEAM = ZVYQBKREXL;
 				INFOPLIST_FILE = EyeHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.evan.EyeHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -491,6 +652,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		200759FD1EEE7B3A006AF2C3 /* Build configuration list for PBXNativeTarget "LaunchHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200759FE1EEE7B3A006AF2C3 /* Debug */,
+				200759FF1EEE7B3A006AF2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		205E15121EC46879002CB33E /* Build configuration list for PBXProject "EyeHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,6 +677,7 @@
 				205E153E1EC4687A002CB33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		205E153F1EC4687A002CB33E /* Build configuration list for PBXNativeTarget "EyeHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +686,7 @@
 				205E15411EC4687A002CB33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		205E15421EC4687A002CB33E /* Build configuration list for PBXNativeTarget "EyeHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +695,7 @@
 				205E15441EC4687A002CB33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
