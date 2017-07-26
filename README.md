@@ -2,12 +2,14 @@
 
 ### A helper tool. Schedule time to lock screen, remind you of eye rest.
 
+## Build Evn:
+- XCode 8.3
+- macOS 10.12
+
 ## Preview
 
-<div align="center">
-<img height= "500px" src="./main.png" />
-<img height= "500px" src="./preference.png" />
-</div>
+![](./main.png "")
+![](./preference.png "")
 
 ## Todo
 - fix bug: launch at login   
