@@ -1,6 +1,6 @@
 # EyeHelper
 
-### A helper tool. Schedule time to lock screen, remind you of eye rest.
+### A helper tool. Schedule time to lock screen, remind  eyes of the rest.
 
 ## Build Evn:
 - XCode 8.3
